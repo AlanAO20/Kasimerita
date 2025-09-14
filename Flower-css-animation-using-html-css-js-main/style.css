@@ -1,0 +1,42 @@
+body {
+  background: #131b21;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+svg#flower-frame {
+  height: 90vh;
+  width: 100%;
+}
+
+.texto {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: #e2006a;
+  text-align: center;
+  z-index: 20;
+  pointer-events: none;
+  font-size: clamp(14px, 2.5vw, 24px);
+  letter-spacing: 0.2px;
+}
+
+#Footer_group_1_,
+[id^=PinkFlowerGroup],
+[id^=BaseGroup] path,
+[id^=LeafGroup] path,
+path[id^=Stroke],
+g[id^=BudGroup] g[id^=BudGroup] g[id^=Bud],
+#Bud8_1_,
+#Bud10_1_,
+#Bud23_1_,
+#Bud26_1_,
+[id^=Dots],
+[id^=Flourish] {
+  visibility: hidden;
+}
